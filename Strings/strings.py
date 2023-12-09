@@ -9,6 +9,18 @@ print("Hello Betty." + " Is it still raining outside?")
 greeting = "What's cooking"
 person = "Joe"
 greetingTwo = "Bonjour"
-name = input("Please enter your name ")
+# name = input("Please enter your name ")
+name = "Mike"
 print(greeting + " " + person + "?")
 print(greetingTwo + " " + name)
+
+age = 55
+print(age)
+
+# Finding the variable type
+print(type(age)) #int (integer)
+print(type(name)) #str (string)
+
+age = "1968"
+print(age)
+print(type(age))
